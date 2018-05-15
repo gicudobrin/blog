@@ -176,13 +176,13 @@
         </div>
       </div>
       <!-- /articles -->
-      <!-- add new article button -->
 
-      <button type="button" class="btn btn-outline-dark btn-lg d-block mx-auto my-5">Add new article</button>
+      <!-- add new article button -->
+      <button type="button" class="btn btn-outline-dark btn-lg d-block mx-auto my-5" data-toggle="modal" data-target="#exampleModal1">Add new article</button>
       <!-- /add new article button -->
+
       <!-- prizes -->
       <h1 id="prizes" class="display-4 text-center my-5 text-muted">Prizes</h1>
-
       <ul class="list-group">
         <li class="list-group-item">
           <div class="d-flex justify-content-between">
@@ -205,9 +205,6 @@
       </ul>
       <!-- /prizes -->
 
-
-
-
       <!-- form for sing up button-->
       <hr>
       <div class="row py-4 text-muted">
@@ -227,8 +224,6 @@
       </div>
       <hr>
       <!-- /form for sing up button-->
-
-
 
       <!-- footer -->
       <div class="row py-3">
@@ -320,9 +315,46 @@
       <!-- /form modal for register button -->
 
       <!-- form modal for add a new article -->
-
-
-
+      <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel2">Add new article</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="firstName">First Name</label>
+                  <input type="email" class="form-control" id="firstName2" aria-describedby="firstNameHelp" placeholder="Enter First Name">
+                  <label for="lastName">Last Name</label>
+                  <input type="email" class="form-control" id="lastName2" aria-describedby="lastNameHelp" placeholder="Enter Last Name">
+                  <label for="exampleInputEmail2">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group mt-4">
+                  <label for="exampleFormControlTextarea1">Article title:</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                </div>
+                <div class="form-group mt-4">
+                  <label for="exampleFormControlTextarea2">Article content:</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea2" rows="4"></textarea>
+                </div>
+              </form>  
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+        </div>
       <!-- /form modal for add a new article -->
 
 
