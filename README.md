@@ -1,3 +1,3 @@
-Here is the blog created for the Caphyon Internship.
+Here is my blog!
 
 You can visit it at: https://gicudobrin.github.io/blog/
